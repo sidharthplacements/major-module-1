@@ -106,16 +106,16 @@ right: 16px;
     background-color:white;
 }
 #image1{
-padding-left: 50px;
-padding-top: 30px;
+padding-left: 30%;
+padding-top: 30%;
 }
 #image2{
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 30%;
+    padding-top: 30%;
 }
 #image3{
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 30%;
+    padding-top: 30%;
 }
 .background1{
     border:1px solid #465BA7;
