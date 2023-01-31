@@ -203,6 +203,7 @@ li{
     border:1px solid white;
     height:160px;
     width:160px;
+    margin-left:4%;
     border-radius: 100%;
     background-color:#CC00FF;
     cursor:pointer;
