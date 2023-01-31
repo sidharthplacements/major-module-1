@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <title>::Hand Game::</title>
+</head>
+<body>
+    <div class="container">
+        <div class="flexbox item-1">
+            <div class="item-1-1">
+                <div class="score-board">
+                    <p id="score-heading">Your <br>Score</p><p  class="onboard" id="score-number">0</p><br>
+                </div>
+                <p id="item-1-1-ptag">Rock<br>Paper<br>Scissor</p>
+            </div>
+        </div>
+        <div class="flexbox item-2" id="results">
+            <div class="background1" id="box1">
+                <div class="item-2-1">
+                    <img id="image1" onclick="compSelect(this.id,this.src)" src="./images/scissor.png" alt="">            
+                </div>
+            </div>
+            <div class="background2"  id="box3">
+                <div class="item-2-2">
+                    <img id="image2" onclick="compSelect(this.id,this.src)" src="./images/stone.png" alt="">
+                </div>
+            </div>
+            <div class="background3"  id="box4">
+                <div class="item-2-3">
+                    <img id="image3" onclick="compSelect(this.id,this.src)" src="./images/paper.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="flexbox item-3"  id="box5">
+            <button id="rules_button" onclick="popup()" type="submit">Rules</button>
+            <div id="add_popup">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
